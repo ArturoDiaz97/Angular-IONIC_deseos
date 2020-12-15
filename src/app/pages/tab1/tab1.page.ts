@@ -48,4 +48,8 @@ export class Tab1Page {
     alert.present();
   }
 
+  navegarLista(lista: Lista){
+    this.router.navigate([`/tabs/tab1/agregar/${lista.id}`]);
+  }
+
 }
